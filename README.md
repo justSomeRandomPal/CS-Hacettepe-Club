@@ -2,7 +2,8 @@ Herkes her hafta yapması gereken egzersizleri ilgili haftanın klasöründe o e
 
 Örnek dizin 
 
-calismaca
+calismaca<br>
+         <br>
          ---hafta1
                   ---egzersiz1
                               ---serkan-main.c
