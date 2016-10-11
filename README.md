@@ -5,7 +5,7 @@ Herkes her hafta yapması gereken egzersizleri ilgili haftanın klasöründe o e
 calismaca<br>
          <br>
          ---hafta1
-                  ---egzersiz1
+         <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ---egzersiz1
                               ---serkan-main.c
                               ---mete-main.c
                   ---egzersiz2
