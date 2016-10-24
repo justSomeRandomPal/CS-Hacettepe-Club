@@ -1,4 +1,4 @@
-Herkes her hafta yapması gereken egzersizleri ilgili haftanın klasöründe o kendi ismiyle klasör açarak paylaşsın.
+Herkes her hafta yapması gereken egzersizleri, ilgili haftanın klasöründe o kendi ismiyle klasör açarak paylaşsın.
 
 Örnek dizin 
 
