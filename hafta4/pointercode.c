@@ -222,9 +222,9 @@ printf("Adress of first element in c array %p \n", &c[0][0][0] );
 
 printf("Value of raw c  %p \n",c );
 
-printf("Value of first dereference of b %p\n",*c);
+printf("Value of first dereference of c %p\n",*c);
 
-printf("Value of second dereference of b %p\n",**c);
+printf("Value of second dereference of c %p\n",**c);
 
 
 /*
