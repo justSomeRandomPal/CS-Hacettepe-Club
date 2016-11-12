@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int calculateExponent ( int base, int exponent);
+int main () {
+    int i;
+    int j;
+
+    printf( "Enter a base: \n" );
+    scanf( "%d", &i );
+
+    printf( "Enter a exponent: \n");
+    scanf( "%d", &j);
+
+    calculateExponent( i, j );
+    printf( "%d", calculateExponent( i, j ));
+    return 0;
+}
+
+int calculateExponent( int base, int exponent ){
+    if ( exponent == 1 ){
+        return base;
+    }
+    else {
+        return ( base * calculateExponent( base, (exponent - 1) ) );
+    }
+}
