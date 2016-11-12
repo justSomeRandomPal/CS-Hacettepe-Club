@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+void solidSquareOfCharacter ( int x, char z );
+int main()  {
+
+    int a;
+    char f;
+
+    printf( "Enter a number: " );
+    scanf( "%d", &a );
+
+    printf( "Enter a character: ");
+    scanf( " %c", &f);
+
+    printf( "Solid square of the entered character is %d\n",a);
+    solidSquareOfCharacter(a, f);
+
+    return 0;
+}
+
+void solidSquareOfCharacter( int x, char z ){
+    int i;
+    int j;
+
+    for ( i = 0; i < x ; i++ ){
+        for ( j = 0; j < x ; j++){
+            printf("%c", z);
+        }
+        printf( "\n" );
+    }
+}
