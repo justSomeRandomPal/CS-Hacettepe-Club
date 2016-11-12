@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+void remainderAndDivider( unsigned short x);
+unsigned short reverseTheNumber ( unsigned short y);
+
+int main()  {
+    unsigned short a;
+    printf( "Enter a number: ");
+    scanf( "%hu", &a );
+
+    if ( a < 1 | a >= 32767) {
+        printf( "Entered a wrong number! ");
+        return 0;
+    }
+
+    printf( "This is the result: ");
+    remainderAndDivider(reverseTheNumber(a));
+    return 0;
+}
+
+void remainderAndDivider ( unsigned short x){
+    unsigned short s;
+    while (  x > 0 ){
+        s = x % 10;
+        printf( "%hu  ", s);
+        x = x / 10;
+    }
+}
+
+unsigned short reverseTheNumber ( unsigned short y){
+    unsigned short reverse = 0;
+    while ( y != 0){
+        reverse = reverse * 10;
+        reverse = reverse + (y % 10);
+        y = y / 10;
+    }
+    return reverse;
+}
+
+
