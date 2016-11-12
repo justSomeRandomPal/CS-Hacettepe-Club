@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+double calculateHypotenuse( double x, double y);
+int main()
+{
+    double size1;
+    double size2;
+
+    printf("Enter the lenght of first side: ");
+    scanf( "%lf", &size1 );
+    printf("Enter the lenght of second side: ");
+    scanf( "%lf", &size2 );
+
+    printf("Hypotenuse is : %lf\n", calculateHypotenuse( size1, size2));
+    return 0;
+}
+
+double calculateHypotenuse( double x, double y){
+    return sqrt( pow( x, 2) + pow( y, 2) );
+}
