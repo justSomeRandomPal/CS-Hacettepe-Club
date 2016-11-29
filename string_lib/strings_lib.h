@@ -6,6 +6,10 @@ enum bool
     true, false
 };
 
+
+
+
+
 #include <stdlib.h>
 
 #ifndef STRINGS_LIB_H
@@ -105,7 +109,7 @@ char **parseString(char *expression, char *delimeters)
     {
         /* To check it's a delimeter while the next element is not a delimeter,
          * if we don't check it, it will count adjacent delimeters more than 1   */
-        if ((isDelim(expression[i], delimeters) == true && isDelim(expression[i + 1], delimeters) == false))
+        if ((isContains(expression[i], delimeters) == true && isContains(expression[i + 1], delimeters) == false))
         {
 
             if (discreteDelimCount == 0)
@@ -155,14 +159,15 @@ char **parseString(char *expression, char *delimeters)
     }
 
 
+    /* */
     for (i = 0; i < howManyPieces; i++)
     {
-        int accessCount = 0;
+        int accessIndex = 0;
 
-        while (isContains(expression[subExpStartingPoints[i] + accessCount], delimeters) == false)
+        while (isContains(expression[subExpStartingPoints[i] + accessIndex], delimeters) == false)
         {
-            retString[i][accessCount] = expression[accessCount + subExpStartingPoints[i]];
-            accessCount++;
+            retString[i][accessIndex] = expression[accessIndex+ subExpStartingPoints[i]];
+            accessIndex++;
         }
 
     }
@@ -173,7 +178,7 @@ char **parseString(char *expression, char *delimeters)
     free(subExpLengths);
 
     free(subExpStartingPoints);
-//    retString[howManyPieces] = NULL;
+
 
 
     return retString;
