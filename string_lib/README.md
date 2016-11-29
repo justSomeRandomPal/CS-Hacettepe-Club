@@ -1,6 +1,6 @@
 #string_lib
 <br>
-A little library that contains following functions dependent with stdlib.h
+**A little library that contains following functions dependent with stdlib.h**
 <br>
 <br>
 int getLength(char *expression);
