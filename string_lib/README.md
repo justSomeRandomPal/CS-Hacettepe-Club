@@ -7,7 +7,14 @@
 <br>
 It returns the length of the string 
 <br>
+<br>
+Code 
+<br>
+<br>
 ![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLength.png?raw=true "Get Length")
+<br>
+Result
+<br>
 <br>
 ![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLengthUsage.png?raw=true "Get Length Usage")
 <br>
