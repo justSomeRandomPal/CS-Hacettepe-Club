@@ -13,7 +13,7 @@ It returns the length of the string
 It return true in enum bool type if delims string contains aChar 
 <br>
 <br>
-**void copyNString(char *dest, char *source, int n)**
+**void copyNString(char \*dest, char \*source, int n)**
 <br>
 Copies n string from source to dest
 <br>
@@ -23,7 +23,7 @@ Copies n string from source to dest
 Copies string from source to dest
 <br>
 <br>
-**char \*\*parseString(char \*expression, char \*delimeters) **
+** char \*\* parseString(char \*expression, char \*delimeters) **
 <br>
 Parses string expression to subexpressions with respect to delimeters and returns 2D char pointer array that each row is a subexpression
 
