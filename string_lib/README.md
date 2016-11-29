@@ -23,7 +23,7 @@ Copies n string from source to dest
 Copies string from source to dest
 <br>
 <br>
-**char \*\*parseString(char *expression, char *delimeters) **
+**char \*\*parseString(char \*expression, char \*delimeters) **
 <br>
 Parses string expression to subexpressions with respect to delimeters and returns 2D char pointer array that each row is a subexpression
 
