@@ -6,6 +6,7 @@
 **int getLength(char \*expression)**
 <br>
 It returns the length of the string 
+<br>
 ![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLength.png?raw=true "Get Length")
 <br>
 ![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLengthUsage.png?raw=true "Get Length Usage")
