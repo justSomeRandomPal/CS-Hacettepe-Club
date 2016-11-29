@@ -17,7 +17,7 @@ Code
 Result
 <br>
 <br>
-![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLengthUsage.png?raw=true "Get Length Usage")
+![Alt text](https://github.com/justSomeRandomPal/CS-Hacettepe-Club/blob/master/string_lib/img/getLengthsUsage.png?raw=true "Get Length Usage")
 <br>
 <br>
 **enum bool isContains(char aChar, char \*delims)**
