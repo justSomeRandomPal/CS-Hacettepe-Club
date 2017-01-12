@@ -36,20 +36,19 @@ void addRecursive(node **head, int data)
 {
     node * current = *head;
 
+    node* newNode = (node *)calloc(1, sizeof(node));
+
+    newNode->data = data;
+    newNode->next = NULL;
 
     if (current == NULL)
     {
-        current = (node *) calloc(1, sizeof(node));
 
-        current->next = NULL;
-        current->data = data;
-        *head = current;
+        *head = newNode;
     }
     else if (current->next == NULL)
     {
-        current->next = (node *) calloc(1, sizeof(node));
-        current->next->data = data;
-        current->next->next = NULL;
+        current->next = newNode;
     }
     else
     {
